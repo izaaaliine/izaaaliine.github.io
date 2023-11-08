@@ -280,12 +280,24 @@ body {
 .Page4 {
   width: 100vw;
   height: 100vh;
-  background-image: url(../vidéos/backgroundPage4.mp4);
+  background-image: url(../img/imgPage4.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
 }
+/* .Page4 video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-position: center;
+  background-size: cover;
+} */
 .formulaireContact {
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 0.8;
@@ -297,6 +309,7 @@ body {
   align-items: center;
   border-radius: 5px;
   margin: auto;
+  z-index: 2;
 }
 h2 {
   border-bottom: 2px solid;
@@ -395,7 +408,7 @@ input[type="submit"] {
   .montgolfiere6 {
     grid-column: 3;
     grid-row: 9;
-    height: 20vh;
+    height: 10vh;
     aspect-ratio: 0.7;
   }
   .montgolfiere7 {
@@ -406,7 +419,7 @@ input[type="submit"] {
   }
   .montgolfiere8 {
     grid-column: 3;
-    grid-row: 6;
+    grid-row: 5;
     height: 20vh;
     aspect-ratio: 1.5;
   }
